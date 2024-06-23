@@ -105,6 +105,7 @@ body::after {
     position: relative;
 }
 
+
 .content-container::after {
     content: "";
     background: url(../images/pattern-quotes.svg);
@@ -117,6 +118,7 @@ body::after {
     left: 50%;
     transform: translateX(-50%);
 }
+
 
 .content-container p {
     color: var(--dark-blue);
@@ -166,6 +168,12 @@ body::after {
     .content-container p {
         font-size: 1rem;
         margin-bottom: 20px;
+    }
+
+    .content-container::after {
+        width: 100px;
+        height: 100px;
+        left: 110px;
     }
 
     .testimonial {
