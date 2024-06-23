@@ -46,6 +46,7 @@ body::after {
     align-items: center;
     padding: 70px 40px;
     position: relative;
+    z-index: 10;
 }
 
 .container-img {
@@ -74,6 +75,7 @@ body::after {
     width: 12px !important;
     height: 12px !important;
     cursor: pointer;
+    box-shadow: none !important;    
 }
 
 .container-img img {
@@ -134,10 +136,6 @@ body::after {
 
 .next {
     display: none;
-}
-
-.previous {
-    
 }
 
 .attribution {
