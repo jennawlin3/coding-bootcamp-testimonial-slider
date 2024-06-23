@@ -151,7 +151,6 @@ body::after {
     .slider {
         flex-direction: row;
         padding: 70px;
-
     }
 
     .content-container {
@@ -161,7 +160,12 @@ body::after {
         z-index: 999;
         text-align: start;
         width: 70%;
-        height: 250px;
+        height: 300px;
+    }
+
+    .content-container p {
+        font-size: 1rem;
+        margin-bottom: 20px;
     }
 
     .testimonial {
